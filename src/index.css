@@ -1,0 +1,238 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-page: #F3F7F9;
+  --bg-card: #FFFFFF;
+  --bg-subtle: #E4EEF2;
+  --border-color: #CBDCE4;
+  --text-main: #0F172A;
+  --text-muted: #475569;
+  --brand-primary: #0E7490;
+  --brand-primary-hover: #155E75;
+  --brand-primary-fg: #FFFFFF;
+  --brand-accent: #10B981;
+  --cta-amber: #D97706;
+  --cta-amber-hover: #B45309;
+  --cta-amber-fg: #FFFFFF;
+}
+
+html.dark {
+  --bg-page: #091017;
+  --bg-card: #111D29;
+  --bg-subtle: #172838;
+  --border-color: #22394E;
+  --text-main: #F1F5F9;
+  --text-muted: #94A3B8;
+  --brand-primary: #06B6D4;
+  --brand-primary-hover: #0891B2;
+  --brand-primary-fg: #04131A;
+  --brand-accent: #10B981;
+  --cta-amber: #F59E0B;
+  --cta-amber-hover: #D97706;
+  --cta-amber-fg: #0F172A;
+}
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+}
+
+.surface-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.surface-subtle {
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  background-color: var(--brand-primary);
+  color: var(--brand-primary-fg);
+  transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--brand-primary-hover);
+}
+
+.btn-amber {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  background-color: var(--cta-amber);
+  color: var(--cta-amber-fg);
+  transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+
+.btn-amber:hover {
+  background-color: var(--cta-amber-hover);
+}
+
+/* WordPress Article Typography, Tables, Quotes & RankMath FAQs */
+.wp-article-content {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text-main);
+}
+
+.wp-article-content > * + * {
+  margin-top: 1.15rem;
+}
+
+.wp-article-content h2 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  font-weight: 800;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-main);
+}
+
+.wp-article-content h3 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.wp-article-content h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  color: var(--text-main);
+}
+
+.wp-article-content a {
+  color: var(--brand-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.wp-article-content ul,
+.wp-article-content ol {
+  padding-left: 1.4rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.wp-article-content ul {
+  list-style-type: disc;
+}
+
+.wp-article-content ol {
+  list-style-type: decimal;
+}
+
+.wp-article-content li {
+  margin-bottom: 0.45rem;
+}
+
+.wp-article-content blockquote,
+.wp-article-content .wp-block-quote {
+  background-color: var(--bg-subtle);
+  border-left: 4px solid var(--brand-primary);
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+.wp-article-content pre,
+.wp-article-content .wp-block-preformatted {
+  background-color: #06121A;
+  color: #F1F5F9;
+  padding: 1.1rem 1.25rem;
+  border-radius: 0.85rem;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  border: 1px solid #22394E;
+}
+
+.wp-article-content figure.wp-block-table {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 0.85rem;
+}
+
+.wp-article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.wp-article-content th,
+.wp-article-content td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  text-align: left;
+  vertical-align: top;
+}
+
+.wp-article-content thead th,
+.wp-article-content tr:first-child th {
+  background-color: var(--bg-subtle);
+  font-weight: 700;
+}
+
+.wp-article-content tr:last-child td {
+  border-bottom: none;
+}
+
+.wp-article-content .wp-block-rank-math-faq-block {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.wp-article-content .rank-math-faq-item {
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  border-radius: 0.85rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.wp-article-content .rank-math-question {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 1.02rem;
+  font-weight: 700;
+}
+
+.wp-article-content .rank-math-answer {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}

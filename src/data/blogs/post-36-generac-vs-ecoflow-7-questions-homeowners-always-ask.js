@@ -1,0 +1,36 @@
+// Modular Blog Post File: post-36-generac-vs-ecoflow-7-questions-homeowners-always-ask.js
+// Auto-exported from WordPress REST API (bleakbot.in)
+
+const post = {
+  "order": 36,
+  "id": "post-36",
+  "slug": "generac-vs-ecoflow-7-questions-homeowners-always-ask",
+  "title": "Generac vs EcoFlow: 7 Questions Homeowners Always Ask",
+  "date": "May 28, 2026",
+  "readTime": "3 min read",
+  "author": "Marcus Webb",
+  "categories": [
+    "Buying Guides"
+  ],
+  "tags": [
+    "Buying Guides",
+    "Load Tested",
+    "Jacksonville Lab"
+  ],
+  "thumbnail": "/assets/blog/thumb-36-generac-vs-ecoflow-7-questions-homeowners-always-ask.webp",
+  "thumbnailRemote": "https://bleakbot.in/wp-content/uploads/2026/05/Generac-vs-EcoFlow-backup-power-showdown.webp",
+  "thumbnailAlt": "Generac vs EcoFlow: 7 Questions Homeowners Always Ask — tested by Marcus Webb in Jacksonville, FL",
+  "excerpt": "Why does everyone ask me this specific comparison? Probably because Generac is the brand people know from TV ads and neighbors&#8217; yards, and EcoFlow is the brand that keeps showing up in storm-prep Facebook groups with surprisingly compelling prices. They&#8217;re not the same type of product — and that&#8217;s exactly where the confusion starts. Here &#8230; Read more",
+  "htmlContent": "\n<p class=\"wp-block-paragraph\">Why does everyone ask me this specific comparison? Probably because Generac is the brand people know from TV ads and neighbors&#8217; yards, and EcoFlow is the brand that keeps showing up in storm-prep Facebook groups with surprisingly compelling prices. They&#8217;re not the same type of product — and that&#8217;s exactly where the confusion starts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Here are the questions I field most often. Straight answers, no runaround.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Is Generac or EcoFlow actually better?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Neither. They solve different problems. A&nbsp;<a href=\"https://www.generac.com/home-standby-generators\" target=\"_blank\" rel=\"noreferrer noopener\">Generac home standby generator</a>&nbsp;powers your entire house — HVAC, electric range, well pump, everything — automatically within seconds of a grid failure. An EcoFlow portable power station powers your critical loads: refrigerator, lights, CPAP, device charging, maybe a window AC unit. If &#8220;better&#8221; means &#8220;covers more of my house,&#8221; Generac wins. If it means &#8220;costs less and requires no installation,&#8221; EcoFlow wins. The answer depends on what you actually need covered.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Which one costs less?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">EcoFlow. By a lot. A Generac 22kW standby installed runs $8,000–$12,000 depending on your location and existing gas line setup. An EcoFlow DELTA Pro — the closest thing to a whole-home alternative in the portable category — runs $2,400–$2,799. Even paired with solar panels, you&#8217;re under $4,000. That&#8217;s not a minor gap.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Can EcoFlow power my whole house the way Generac does?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">No — and it&#8217;s worth being direct about this. A portable power station powers your critical loads, not your whole electrical panel. Central air conditioning, electric stoves, electric dryers, and large well pumps are generally beyond what a standalone portable power station handles. A Generac handles all of it. If running your whole house during an outage is genuinely the requirement, a standby generator is the honest answer. For&nbsp;<a href=\"/blog/you-probably-dont-need-a-whole-home-generator-and-heres-why-i-say-that\" data-internal-link=\"true\" target=\"_blank\" rel=\"noreferrer noopener\">why most homeowners don&#8217;t actually need that</a>, I&#8217;ve written that argument out separately.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Which is better for hurricane season?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">For outages under 72 hours — which covers most tropical storm and Category 1–2 hurricane events — a properly sized EcoFlow setup handles critical loads well. According to&nbsp;<a href=\"https://www.eia.gov/electricity/annual/html/epa_11_01.htm\" target=\"_blank\" rel=\"noreferrer noopener\">U.S. EIA outage data</a>, most Florida and Carolinas outages from storms resolve within that window. For a direct hurricane hit with multi-day extended outages, a Generac standby with a large propane tank is more resilient — it doesn&#8217;t depend on solar recharge or a power grid to refuel.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">Does EcoFlow require professional installation?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">No. You plug it in. That&#8217;s it. A Generac standby requires a licensed electrician for the transfer switch, a gas plumber for the fuel line, permits, inspections, and a professional service visit each year after that. The EcoFlow setup is an afternoon project. That installation gap is a real practical difference for homeowners who want backup power without a multi-week contractor coordination process.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">How long does each one last?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">The EcoFlow DELTA Pro uses LFP battery chemistry rated at 3,500 charge cycles to 80% capacity — decades of useful life at normal usage frequency. Generac standby units are mechanical systems requiring annual oil changes, air filter replacements, and spark plug service. A well-maintained Generac can last 20–30 years. A poorly maintained one fails when you need it most. The maintenance burden is real and ongoing.</p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity\"/>\n\n\n\n<h3 class=\"wp-block-heading\">So which should I actually buy?</h3>\n\n\n\n<p class=\"wp-block-paragraph\">Run your load list first. Write down everything you need powered during an outage and for how many hours. If the answer is &#8220;fridge, CPAP, lights, and phones for one to three days&#8221; —&nbsp;<a href=\"/blog/best-portable-power-station-for-home-backup-in-2026-what-i-found-after-testing-four-models\" data-internal-link=\"true\" target=\"_blank\" rel=\"noreferrer noopener\">see how EcoFlow handles that under real load</a>&nbsp;before spending $10,000 on a standby. If the answer includes central AC, a well pump, or &#8220;I need everything running automatically without touching anything&#8221; — call a Generac installer. Both answers are correct. The problem is most people don&#8217;t run the load list first and end up buying based on fear rather than math.</p>\n",
+  "comments": [
+    {
+      "id": "c-3601",
+      "author": "David Miller",
+      "location": "Tampa, FL",
+      "date": "May 28, 2026",
+      "text": "Great real-world numbers on this unit. So many other sites just parrot the manufacturer spec sheet without testing inverter tare losses."
+    }
+  ]
+};
+
+export default post;
